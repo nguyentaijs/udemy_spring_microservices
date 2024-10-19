@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>loan</name>
     <description>loan</description>
+    <packaging>jar</packaging>
     <url/>
     <licenses>
         <license/>
@@ -75,6 +76,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <image>
+                        <name>nguyentaijs/${project.artifactId}</name>
+                    </image>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
