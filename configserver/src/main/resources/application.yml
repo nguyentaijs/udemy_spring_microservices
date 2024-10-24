@@ -14,3 +14,8 @@ spring:
           timeout: 5
           force-pull: true
           default-label: main
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
