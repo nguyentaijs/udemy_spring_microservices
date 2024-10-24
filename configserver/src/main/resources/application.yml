@@ -4,9 +4,13 @@ spring:
   application:
     name: configserver
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:/config"
+        git:
+          uri: "https://github.com/nguyentaijs/udemy_ms_config.git"
+          clone-on-start: true
+          timeout: 5
+          force-pull: true
+          default-label: main
