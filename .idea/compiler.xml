@@ -8,15 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cards (1) (com.eazybytes)" />
+        <module name="eurekaserver" />
+        <module name="cards" />
         <module name="configserver (1) (com.eazybytes)" />
         <module name="accounts (1) (com.eazybytes)" />
         <module name="loans" />
+        <module name="accounts" />
+        <module name="configserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="accounts" target="17" />
-      <module name="cards" target="17" />
-      <module name="configserver" target="17" />
       <module name="loan" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +29,7 @@
       <module name="cards (1) (com.eazybytes)" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="configserver (1) (com.eazybytes)" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
       <module name="loan" options="-parameters" />
       <module name="loans" options="-parameters" />
     </option>

@@ -5,107 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab622f04-81be-4aa9-8815-831c0bc3610e" name="Changes" comment="Support live refresh">
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/src/main/java/com/eazybytes/eurekaserver/EurekaserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/eurekaserver/src/test/java/com/eazybytes/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/AccountsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/audit/AuditAwareImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/audit/AuditAwareImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/constants/AccountsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/constants/AccountsConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/controller/AccountsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/AccountsContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/AccountsContactInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/AccountsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/AccountsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/CustomerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/ErrorResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/dto/ResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/entity/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/entity/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/exception/CustomerAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/mapper/AccountsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/mapper/AccountsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/mapper/CustomerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/repository/AccountsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/repository/AccountsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/service/AccountsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/service/AccountsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/io/github/nguyentaijs/accounts/service/impl/AccountsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/java/io/github/nguyentaijs/accounts/service/impl/AccountsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/test/java/io/github/nguyentaijs/accounts/AccountsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/accounts/src/test/java/io/github/nguyentaijs/accounts/AccountsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/CardsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/CardsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/audit/AuditAwareImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/audit/AuditAwareImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/constants/CardsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/constants/CardsConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/controller/CardsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/dto/CardsContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/dto/CardsContactInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/dto/CardsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/dto/CardsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/dto/ErrorResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/dto/ResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/entity/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/entity/Cards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/exception/CardAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/exception/CardAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/mapper/CardsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/mapper/CardsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/repository/CardsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/repository/CardsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/service/CardsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/service/CardsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/io/github/nguyentaijs/cards/service/impl/CardsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/java/io/github/nguyentaijs/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/test/java/io/github/nguyentaijs/cards/CardsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/cards/src/test/java/io/github/nguyentaijs/cards/CardsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/io/github/nguyentaijs/configserver/ConfigserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/java/io/github/nguyentaijs/configserver/ConfigserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/accounts-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/accounts-qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/cards-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/cards-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/cards-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/cards-qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/cards.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/cards.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/loans-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/loans-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/loans-qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/loans-qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/config/loans.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/main/resources/config/loans.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/test/java/io/github/nguyentaijs/configserver/ConfigserverApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/configserver/src/test/java/io/github/nguyentaijs/configserver/ConfigserverApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/LoanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/LoanApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/audit/AuditAwareImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/audit/AuditAwareImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/constants/LoansConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/constants/LoansConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/controller/LoansController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/dto/ErrorResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/dto/LoanContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/dto/LoanContactInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/dto/LoansDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/dto/LoansDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/dto/ResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/entity/Loans.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/entity/Loans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/exception/LoanAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/exception/LoanAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/mapper/LoansMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/mapper/LoansMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/repository/LoansRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/repository/LoansRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/service/LoansService.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/service/LoansService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/java/io/github/nguyentaijs/loan/service/impl/LoansServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/java/io/github/nguyentaijs/loan/service/impl/LoansServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/test/java/io/github/nguyentaijs/loan/LoanApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/loan/src/test/java/io/github/nguyentaijs/loan/LoanApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/section8/loans/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/section8/eurekaserver" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -154,8 +75,11 @@
     "Spring Boot.CardsApplication.executor": "Run",
     "Spring Boot.ConfigserverApplication (1).executor": "Run",
     "Spring Boot.ConfigserverApplication.executor": "Run",
+    "Spring Boot.EurekaserverApplication.executor": "Run",
     "Spring Boot.LoanApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "Spring Boot.LoansApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/workspace/src/udemy_spring_microservices/section6/v2-spring-cloud-config/loans",
     "node.js.detected.package.eslint": "true",
@@ -185,7 +109,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
     <configuration name="configserver jib" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -218,9 +142,9 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="accounts (1) (com.eazybytes)" />
+      <module name="accounts" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.accounts.AccountsApplication" />
       <extension name="coverage">
         <pattern>
@@ -232,21 +156,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.cards.CardsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigserverApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="configserver (1) (com.eazybytes)" />
+      <module name="configserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.configserver.ConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.loans.LoansApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.loans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Maven.configserver jib" />
+      <item itemvalue="Spring Boot.EurekaserverApplication" />
       <item itemvalue="Spring Boot.ConfigserverApplication (1)" />
-      <item itemvalue="Spring Boot.AccountsApplication" />
+      <item itemvalue="Spring Boot.AccountsApplication (1)" />
+      <item itemvalue="Spring Boot.CardsApplication" />
+      <item itemvalue="Spring Boot.LoansApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AccountsApplication" />
+        <item itemvalue="Spring Boot.LoansApplication" />
+        <item itemvalue="Spring Boot.CardsApplication" />
+        <item itemvalue="Spring Boot.AccountsApplication (1)" />
       </list>
     </recent_temporary>
   </component>
